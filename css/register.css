@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+body{
+    background: url(../assets/jadukor.png);
+    background-size: cover;
+    background-attachment: fixed;
+}
+.svg-bottom{
+    margin-top: -30px;
+    height: auto;
+    width: 30%;
+}
+@media only screen and (min-width:570px){   
+.svg-bottom{
+    height: auto;
+    width: 70%!important;
+    margin-top: -30px;
+}
+}
+::selection{
+    color: #C1C1C9;
+    background-color: #14142C;
+}
+.back-cover-form{
+    margin: 0;
+    padding: 0;
+    height: 60vh;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    align-self: center; 
+    background: rgb(153,0,0);
+    background: linear-gradient(0deg, rgba(153,0,0,0.8) 0%, rgba(255,255,255,0) 100%); 
+    text-align: center;
+    align-content: center;
+    justify-content: center;
+    justify-items: center;
+    width: 100%!important;
+}
+.try1{
+    color: #ffffff!important;
+}
+.main-form{
+    padding: 20px;
+    background-color:rgba(153,0,0,0.8)
+}
+.shomoy-inp:focus{
+    border-color: #ffffff!important;
+    color: #ffffff!important;
+    box-shadow: 0 1px 0 0 #ffffff;
+}
+.shomoy-inp{
+    border-color: #ffffff!important;
+    color: #ffffff!important;
+    box-shadow: 0 1px 0 0 #ffffff;
+}
